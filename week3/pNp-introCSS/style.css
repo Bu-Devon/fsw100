@@ -1,0 +1,9 @@
+.face{
+    color: blue;
+}
+table, th,td{
+    border: 1px solid black;
+}
+img{
+    size: 30px;
+}
