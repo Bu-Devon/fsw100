@@ -1,0 +1,114 @@
+
+body{
+    top: 30px;
+    background-image: url('https://theplanets.org/wp-content/uploads/2014/12/stars.jpeg');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+header{
+    font-family:'Permanent Marker', cursive;
+    text-align: center;
+    color:white;
+    font-size:30px;
+}
+
+Nav{
+    position: fixed;
+    top: 70px;
+    width: 95%;
+    padding: 20px;
+    background-color: gray;
+    border: 3px black solid;
+    border-radius: 25px;
+    z-index: 1;
+}
+.more{
+    position: relative;
+    left: 1100px;
+}
+.about{
+    position: relative;
+    left: 800px;
+}
+.home{
+    position: relative;
+    left: 500px;
+}
+
+.first{
+    position: relative;
+    top:40px;
+    background-color: gray;
+    width: 88%;
+    height: 600px;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.extra{
+    position: relative;
+    top: 40px;
+    left: 15px;
+    background-color: gray;
+    width: 70%;
+    height: 200px;
+    border: 15px solid black;
+    border-radius: 25px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.ttz{
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.tts{
+    float: left;
+    width: 550px;
+    height: 550px;
+    border-radius: 25px;
+    margin: 15px;
+}
+
+table, th, td {
+    position: relative;
+    top:30px;
+    right: 15px;
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+  th, td {
+    padding: 14px;
+    text-align: left;
+}
+
+.vv{
+    font-family:'Permanent Marker', cursive;
+    color: white;
+    float: right;
+}
+
+a:hover{ 
+  text-decoration: none;      
+  color: blue;
+}
+
+footer{
+    background-color: black;
+    border: 15px solid black;
+    position: relative;
+    bottom: 5px;
+}
+
